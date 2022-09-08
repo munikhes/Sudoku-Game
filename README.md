@@ -1,2 +1,2 @@
 # Sudoku-Game
-JS Project
+JS Final Project 
