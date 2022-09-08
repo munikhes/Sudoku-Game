@@ -1,0 +1,160 @@
+body{
+    background-color: blanchedalmond;
+    font-family: 'Potta One', cursive;
+}
+
+/*login screen*/
+
+.loginScreen{
+    position: absolute;
+    top: 0%;
+    width: 95%;
+    text-align: center;
+}
+
+#userInforamtion{
+    background-color: burlywood;
+    border-radius: 25px;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    font-size: large;
+}
+
+::placeholder{
+    color: black;
+}
+
+#forgot{
+    font-size: small;
+}
+#newGameButton{
+    background-color:papayawhip;
+    border-color: burlywood;
+    border-radius: 50px;
+    border-width: 5px;
+    color: brown;
+    font-size: medium;
+}
+a:link{
+    color:sienna;
+}
+.alertIncorrect{
+font-size: small;
+color: red;
+}
+
+/*Level Screen*/
+#levelScreen{
+    position: absolute;
+    top: 20%;
+    width: 95%;
+}
+h1{
+    font-size: 100px;
+    text-align: center;
+    left: auto;
+    right: auto;
+    margin-bottom: 10px;
+}
+.levelDogImg{
+    width: 180px;
+}
+.flexBoxContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     flex-direction: row;
+  }
+  .flexItem{
+    padding: 50px;
+  }
+  
+  /*Game Screen*/
+  
+  #imgleft{
+    position: absolute;
+    width: 23%;
+    top: 13em;
+    left: 4em;
+  }
+
+  #imgright{
+    position: absolute;
+    width: 23%;
+    top: 19.5em;
+    right: 4em;
+    
+  }
+  
+  table
+  {
+  border:6px solid black;
+ border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+    
+  };
+tr
+  {
+  border-style:solid;
+  padding: 0;
+  }
+td
+  {
+  border: 2px solid black; 
+  padding:0;
+  }
+  td input{
+    width:50px; border:0; font-size:25pt; text-align:center; height: 50px;
+    background-color: antiquewhite;
+    border-color: antiquewhite;
+  }
+
+
+.bold
+  {  
+      border-right-width: 0.1cm;
+      border-right-color: black;
+  }
+.bottom_bold
+  {    
+      border-bottom-width: 0.1cm;
+      border-bottom-color: black;
+  }
+.corner
+  {
+      border-bottom-width: 0.1cm;
+      border-right-width: 0.1cm;
+      border-bottom-color: black;
+      border-right-color: black;
+  }
+
+  #iconConatainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     flex-direction: row;
+
+  }
+
+  .choiseIcons{
+   width: 4em;
+   padding-top: 10px;
+   padding-left: 3em;
+   padding-right: 3em;
+  }
+
+  h2{
+    font-size: 100px;
+    text-align: center;
+    left: auto;
+    right: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+form input{
+  width:180px; border:1px; font-size:15px; text-align:center; height: 27px;
+}

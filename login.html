@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="gameDesign.css">
+    <title>Sudoku</title>  
+</head>
+
+<body>
+
+<form class="loginScreen">
+<h1>SuDOGku</h1>
+        <div>
+            <img src="images/DoggieLogo.png" alt="Cute Dog">
+        </div>
+<div id="userInforamtion">
+    <label>Username</label><br>
+            <input type="text" placeholder="Enter Username" maxlength="11"  id="userName"><br>
+            <div class="alertIncorrect" id=incorrectUsername> </div>
+   <label>Password</label><br>   
+            <input type="password" placeholder="Enter Password" maxlength="11" id="password"><br>
+            <div class="alertIncorrect" id=incorrectPassword> </div>
+            <label onclick="forgotPassword()" id="forgot">Forgot password?</a></label><br>
+            <button onclick="newGame()" type="button" id="newGameButton">New Game</button><br>
+        </div>
+    </form>
+    
+    
+</body>
+
+<script type="text/javascript" src="gameInterface.js"></script>
+</html>
+
+
+
+
